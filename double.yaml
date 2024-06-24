@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: double
+  name: double
+spec:
+  containers:
+  - image: busybox
+    name: double
+    resources: {}
+  - image: ngnix
+    name: ngnix
+    resources: {}    
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
