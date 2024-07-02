@@ -40,4 +40,3 @@ k expose pod redis --type=NodePort --port=80 --name=redis_service --dry-run=clie
 k create service clusterip redis --tcp=8080:8080 --dry-run=client -o yaml
 ```
 
-# 
