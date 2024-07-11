@@ -109,3 +109,7 @@ ImageLocality
 A higher score is given to the node which has an image downloaded already
 
 ![Extension Points](image-12.png)
+
+![Multiple Schedulers working together in a single process](image-14.png)
+
+![alt text](image-15.png)
