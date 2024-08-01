@@ -13,3 +13,9 @@ Worked on a Secret Management solution using AWS Secret Manager and enabling log
 
 
 Worked on creating cron jobs for repetitive db refresh tasks,created jobs which ran bash or python code under hood for automating CI/CD , Deploying K8s clusters etc
+
+
+if you want to recreate any k8s resource without having to delete it
+```
+k replace --force -f manifest.yaml
+```
