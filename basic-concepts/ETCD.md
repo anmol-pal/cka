@@ -9,8 +9,7 @@ Etcd stores information about cluster
 - roles
 - bindings
 
--- Anything we get from kubectl is via etcd
-Any change in k8s is considered to be complete when the etcd server is updated
+ Any change in k8s is considered to be complete when the etcd server is updated
 
 -- If we deploy cluster from scratch , we need to install and configure etcd in master node ourselves by setting ```--advertise-client-urls``` option
 
