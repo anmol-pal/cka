@@ -1,12 +1,15 @@
 # CONFIG MAP
+
 Creating cm imperative way
-````
+
+```
 kubectl create configmap \
     app-config --from-literal=APP_COLOR=blue \
                --from-literal=KEY=value
 ```
 
 Creating cm declarative approach
+
 ```
 apiVersion: v1
 kind: ConfigMap
@@ -19,6 +22,7 @@ data:
 
 Configuring pods with this config
 ![alt text](image-6.png)
+
 ```
 apiVersion: v1
 kind: Pod
